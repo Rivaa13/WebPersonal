@@ -308,6 +308,24 @@
         });
     };
 
+    //typing text
+    const typingText = document.querySelector(".typing-text span");
+
+    const words = [
+        "Fresh Graduate",
+        "Looking for work",
+        "Live in Tangerang"
+    ];
+    
+    let wordIndex = 0;
+    
+    typingText.textContent = words[0];
+    
+    setInterval(() => {
+        wordIndex = (wordIndex + 1) % words.length;
+        typingText.textContent = words[wordIndex];
+    }, 3000);
+
     // toggle halaman about
     const titles = document.querySelectorAll('.about-section .toggle-title');
     titles.forEach(title => {
