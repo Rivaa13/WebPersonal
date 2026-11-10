@@ -151,6 +151,9 @@ span{
     color: var(--main-color);
     font-size: 4rem;
 }
+.typing-text span::before {
+    font-size: 4rem;
+}
 .home-content h3{
     font-size: 4rem;
     margin-bottom: 1rem;
@@ -216,30 +219,38 @@ span{
   transform: scale(1.05); 
   box-shadow: 0 0 15px var(--main-color); 
 }
-.typing-text{
+
+.typing-text {
     font-size: 34px;
     font-weight: 600;
     min-width: 280px;
 }
-.typing-text span{
+
+.typing-text span {
     position: relative;
+    display: inline-block;
 }
-.typing-text span::before{
-    content: 'Student';
+
+.typing-text span::before {
+    content: "Fresh Graduate";
     color: var(--main-color);
     animation: words 10s infinite;
 }
-@keyframes words{
-    0%, 20%{
-        content: 'Fresh Graduate';
+
+@keyframes words {
+    0%, 30% {
+        content: "Fresh Graduate";
     }
-    21%, 40%{
-        content: 'Looking for work';
+
+    31%, 60% {
+        content: "Looking for work";
     }
-    41%, 60%{
-        content: 'Live in Tangerang';
+
+    61%, 100% {
+        content: "Live in Tangerang";
     }
 }
+
 @media (max-width:1000px) {
     .home{
         gap: 4rem;
