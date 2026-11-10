@@ -228,27 +228,9 @@ span{
     display: inline-block;
 }
 
-.typing-text span::before {
-    content: "Fresh Graduate";
+.typing-text span {
     color: var(--main-color);
-    animation: words 10s infinite;
-    animation-delay: 0s;
-}
-
-.typing-text span::after {
-    content: "";
-}
-
-@keyframes words {
-    0%, 30% {
-        content: "Fresh Graduate";
-    }
-    31%, 60% {
-        content: "Looking for work";
-    }
-    61%, 100% {
-        content: "Live in Tangerang";
-    }
+    font-size: 4rem;
 }
 
 @media (max-width:1000px) {
