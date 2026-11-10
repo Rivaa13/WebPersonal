@@ -151,9 +151,6 @@ span{
     color: var(--main-color);
     font-size: 4rem;
 }
-.typing-text span::before {
-    font-size: 4rem;
-}
 .home-content h3{
     font-size: 4rem;
     margin-bottom: 1rem;
