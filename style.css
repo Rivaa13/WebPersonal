@@ -224,19 +224,19 @@ span{
 .typing-text span{
     position: relative;
 }
-/* .typing-text span::before{
-    content: 'Student';
+.typing-text span::before{
+    content: 'Fresh Graduate';
     color: var(--main-color);
     animation: words 10s infinite;
-} */
+}
 @keyframes words{
-    0%, 20%{
+    0%, 30%{
         content: 'Fresh Graduate';
     }
-    21%, 40%{
+    31%, 60%{
         content: 'Looking for work';
     }
-    41%, 60%{
+    61%, 100%{
         content: 'Live in Tangerang';
     }
 }
