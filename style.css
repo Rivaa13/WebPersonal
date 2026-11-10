@@ -231,19 +231,13 @@ span{
 }
 @keyframes words{
     0%, 20%{
-        content: 'Under Graduate';
-    }
-    21%, 40%{
         content: 'Fresh Graduate';
     }
+    21%, 40%{
+        content: 'Looking for work';
+    }
     41%, 60%{
-        content: 'Looking for Intern';
-    }
-    61%, 80%{
         content: 'Live in Tangerang';
-    }
-    81%, 100%{
-        content: 'Student';
     }
 }
 @media (max-width:1000px) {
