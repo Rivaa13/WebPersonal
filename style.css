@@ -237,6 +237,10 @@ span{
     animation: words 10s infinite;
 }
 
+.typing-text span::after {
+    content: "";
+}
+
 @keyframes words {
     0%, 30% {
         content: "Fresh Graduate";
