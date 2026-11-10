@@ -245,11 +245,9 @@ span{
     0%, 30% {
         content: "Fresh Graduate";
     }
-
     31%, 60% {
         content: "Looking for work";
     }
-
     61%, 100% {
         content: "Live in Tangerang";
     }
