@@ -230,13 +230,13 @@ span{
     animation: words 10s infinite;
 }
 @keyframes words{
-    0%, 30%{
+    0%, 20%{
         content: 'Fresh Graduate';
     }
-    31%, 60%{
+    21%, 40%{
         content: 'Looking for work';
     }
-    61%, 100%{
+    41%, 60%{
         content: 'Live in Tangerang';
     }
 }
