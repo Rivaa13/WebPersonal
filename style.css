@@ -235,6 +235,7 @@ span{
     content: "Fresh Graduate";
     color: var(--main-color);
     animation: words 10s infinite;
+    animation-delay: 0s;
 }
 
 .typing-text span::after {
