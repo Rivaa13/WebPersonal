@@ -225,7 +225,7 @@ span{
     position: relative;
 }
 .typing-text span::before{
-    content: 'Fresh Graduate';
+    content: 'Student';
     color: var(--main-color);
     animation: words 10s infinite;
 }
