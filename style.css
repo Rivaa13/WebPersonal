@@ -226,19 +226,15 @@ span{
 .typing-text span {
     position: relative;
     display: inline-block;
-}
-
-.typing-text {
-    font-size: 34px;
-    font-weight: 600;
-    min-width: 280px;
-}
-
-.typing-text span {
-    position: relative;
-    display: inline-block;
     color: var(--main-color);
     font-size: 4rem;
+}
+
+/* Hilangkan tulisan tambahan dari pseudo-element */
+.typing-text span::before,
+.typing-text span::after {
+    content: none !important;
+    display: none !important;
 }
 
 @media (max-width:1000px) {
