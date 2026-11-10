@@ -224,11 +224,11 @@ span{
 .typing-text span{
     position: relative;
 }
-.typing-text span::before{
+/* .typing-text span::before{
     content: 'Student';
     color: var(--main-color);
     animation: words 10s infinite;
-}
+} */
 @keyframes words{
     0%, 20%{
         content: 'Fresh Graduate';
