@@ -230,12 +230,13 @@ span{
     font-size: 4rem;
 }
 
-/* Hilangkan tulisan tambahan dari pseudo-element */
+/* FIX DOUBLE TYPING TEXT */
 .typing-text span::before,
 .typing-text span::after {
     content: none !important;
     display: none !important;
 }
+
 
 @media (max-width:1000px) {
     .home{
